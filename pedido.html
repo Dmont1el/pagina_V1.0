@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+</head>
+ <body>
+    <h1>Aqui se hace el pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre"> Introduce tu nombre </label> <br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+        
+        <br><br>
+
+        <label for="telefono"> Introduce tu numero telefonico </label> <br>
+        <input type="text" name="telefono" id="telefono" placeholder="telefono">
+
+        <br><br>
+
+        <label for="correo"> Introduce tu correo electronico </label> <br>
+        <input type="text" id="correo" name="correo" placeholder="correo">
+        
+        <br><br>
+
+        <label for="pastel"> Por favor describe como sera tu pastel de forma breve </label> <br>
+        <input type="text" id="pastel" name="pastel" placeholder="Descripcion">
+
+
+        <br><br>
+
+        <p>De acuerdo con la pagina anterior del menu, selecciona las caracteristicas de tu pastel: </p>
+        <input type="radio" id="tradicional" name="tipo" value="tradicional">
+        <label for="tradicional">Tradicional</label><br> 
+        <input type="radio" id="especial" name="tipo" value="especial">
+        <label for="especial">Especial</label><br>
+        <input type="radio" id="organico" name="tipo" value="organico">
+        <label for="organico">Organico</label><br> <br>
+        
+        <p>Por favor escoje el nivel de complejidad de tu pastel:</p>
+        <input type="radio" id="1" name="nivel" value="1">
+        <label for="tradicional">Un nivel</label><br> 
+        <input type="radio" id="2" name="nivel" value="2">
+        <label for="especial">Dos niveles</label><br>
+        <input type="radio" id="3" name="nivel" value="3">
+        <label for="organico">Tres niveles</label><br> <br>
+
+        <p>Por favor selecciona el material del diseño del pastel: </p>
+        <select name="diseno" id="diseno">
+            <option value="Mermelada">Mermelada</option>
+            <option value="Caramelo">Caramelo</option>
+            <option value="Merengue">Merengue</option>
+            <option value="Chispas de chocolate">Chispas de chocolate</option>
+        </select>
+        <br><br>
+<input type="reset">
+<input type="submit">
+
+<br><br>
+    </form>
+
+ </body>
+</html>
